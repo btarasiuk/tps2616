@@ -27,7 +27,7 @@
     <talend.pigudf.groupid>org.example.newproject2616.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.newproject2616.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M </talend.job.jvmargs>
     <talend.project.branch>master</talend.project.branch>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
@@ -58,6 +58,16 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>avro-compiler-1.7.7</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>azure-data-lake-store-sdk-2.1.4</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>azure-storage-2.2.0</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -157,7 +167,22 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>hadoop-azure-2.7.4</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>hadoop-azure-datalake-2.8.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>hadoop-common-2.7.3</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>hadoop-common-2.8.1</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -243,6 +268,11 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>jersey-server-2.22.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jetty-util-6.1.26</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -599,6 +629,9 @@
     </profile>
     <profile>
       <id>include-running-log4j</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <properties>
         <log4j.running.dir>${current.resources.dir}/</log4j.running.dir>
       </properties>
