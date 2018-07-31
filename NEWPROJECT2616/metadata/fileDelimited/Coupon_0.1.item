@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="US-ASCII" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="C:/Users/jasjyotsinghj599/Desktop/BDA/files/Coupons.csv" FirstLineCaption="true" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" dataPackage="_Lqe20msCEeiSN8d5IFv_5w" name="Coupon" xmi:id="_Lqe20WsCEeiSN8d5IFv_5w"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_Lqe20WsCEeiSN8d5IFv_5w" name="default" xmi:id="_Lqe20msCEeiSN8d5IFv_5w">
+    <ownedElement id="_xsgR4GsBEeiSN8d5IFv_5w" label="metadata" xmi:id="_Lqe202sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="ITIN_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe21GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MKT_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe21WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEQ_NUM" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe21msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COUPONS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe212sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="YEAR" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe22GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_AIRPORT_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe22WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_AIRPORT_SEQ_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe22msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_CITY_MARKET_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe222sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="QUARTER" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe23GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe23WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_COUNTRY" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe23msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_STATE_FIPS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe232sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_STATE_ABR" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe24GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_STATE_NM" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe24WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORIGIN_WAC" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe24msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_AIRPORT_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe242sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_AIRPORT_SEQ_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe25GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_CITY_MARKET_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe25WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe25msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_COUNTRY" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe252sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_STATE_FIPS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe26GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_STATE_ABR" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe26WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_STATE_NM" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe26msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEST_WAC" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe262sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRIP_BREAK" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe27GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COUPON_TYPE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe27WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TICKET_CARRIER" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe27msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OPERATING_CARRIER" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe272sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REPORTING_CARRIER" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe28GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PASSENGERS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe28WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FARE_CLASS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe28msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DISTANCE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe282sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DISTANCE_GROUP" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe29GsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GATEWAY" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe29WsCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITIN_GEO_TYPE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe29msCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COUPON_GEO_TYPE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_Lqe292sCEeiSN8d5IFv_5w" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_06e36690-ddf2-4ee0-aeaa-0ce55515f067"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>seWo0iODeBo4PNL8TXqSq29YGM+uuo000eM+VhS73NWaEv5MQqsLcgi/U/2O3QsDWmV/Ot3TPD8y
+F/do4eLFtQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_de4bb64f-754c-4719-8fe5-191dda8729af"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LT4f79CiLow1YGCAPvFhlbiNesxtnNUP7OaT89GNDdLYX8FiBaTtSggIxkU6QNHSGZctOUDA3tsx
+2EFC3a7mdw==</DigestValue></Reference></SignedInfo><SignatureValue>w69MWzDY+t0RUoxn749Eh2hxoTRHn8miOrmxxb0c1PklGFVhulot2NclQvN60HoFPCRO7qpdUqyZ
+a5XjT9pUzfwbT/lUW5g7kk1pnuqQNb1JUi/sDdiygzFoTY7HBI6LSec3hJGIdB3VRZyQWHvWUXSh
+pTN3P2O58buCTBRTXvMFEMuQCG9wqZTcQ+dcFxcWY/52tTfdKlW8poJsWYuc2cts6wrI8XKAU5BV
+Ps76Top6IT7+Pw9tska5/8E8R13YqkoKiUdWt1GyRCQMWTUjWKgUIE2z2GiFX/4BqR5oVPBf3ezo
++eyQQDan/SjGhkCWlmcTatnpjEXEyc+gNLEbzg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_de4bb64f-754c-4719-8fe5-191dda8729af" Target="#_06e36690-ddf2-4ee0-aeaa-0ce55515f067"><Timestamp>2018-07-31 13:30:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
